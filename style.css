@@ -1,0 +1,18 @@
+body {
+    padding: 30px 10%;
+}
+#bowl button {
+    margin-top: 20px;
+    padding: 8px;
+}
+
+#bowl label {
+    display: block;
+    margin: 8px 0;
+}
+
+#bowl textarea {
+    width: 70%;
+    height: 100px;
+    resize: none;
+}
