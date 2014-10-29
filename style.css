@@ -9,6 +9,7 @@ body {
 #bowl label {
     display: block;
     margin: 8px 0;
+    font-weight: bold;
 }
 
 #bowl textarea {

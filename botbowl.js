@@ -19,6 +19,11 @@
       return;
     }
 
+    if (tweet.value.length > 140) {
+      alert("Yo 140 character limit cmon now");
+      return;
+    }
+
     entry = new Entry();
     entry.set("text", tweet.value);
     entry.set("nickname", nickname.value);
@@ -38,7 +43,7 @@
     query.find({
       success: function(results) {
         if (!results.length) {
-          leaders.innerHTML = "Awaiting our champion...";
+          leaders.innerHTML = "Awaiting our champions...";
         }
         var fragment = document.createDocumentFragment(),
           li;
