@@ -1,5 +1,6 @@
 body {
     padding: 30px 10%;
+    color: rba(0,0,0,0.91);
 }
 #bowl button {
     margin-top: 20px;

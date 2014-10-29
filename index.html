@@ -7,10 +7,12 @@
   </head>
   <body>
     <h1>Twitter Bowling</h1>
-    <p>Construct a tweet to be sent to a derelict twitter account, and try to get the most points within 24 hours by targeting phrases bots (or people scanning the stream) will favorite or retweet. Leaders posted below.</p>
-    <p>Yes you could easily cheat, you cool hacker you, but don't be a donkus.</p>
+    <a href="#play">Play</a>
+    <a href="#leaders">Leaders</a>
+    <a href="#what">What?</a>
 
     <!-- Submission -->
+    <a name="play">
     <h2>Play</h2>
     <form id="bowl">
       <label for="tweet">Put a tweet in this here box:</label>
@@ -24,10 +26,28 @@
     </form>
 
     <!-- leaderboard -->
+    <a name="leaders"></a>
     <h2>Hall of Fame</h2>
     <ol id="leaders">
     </ol>
 
+    <!-- Description -->
+    <a name="what"></a>
+    <h2>What?</h2>
+    <h3>TL;DR</h3>
+    <p>Compose a tweet with the goal of getting the most bots or random people to favorite or retweet. The tweet is sent to a neutral twitter account, in order to level the playing ground.</p>
+    <h3>Rules</h3>
+    <p>
+      <ul>
+        <li>140 characters (duh)</li>
+        <li>Entries will be scored after 24 hours</li>
+        <li>Favorites are 1 point each</li>
+        <li>Retweets are awarded 2 points each</li>
+        <li>Bot follows will not be awarded points due to attribution difficulties</li>
+      </ul>
+    </p>
+    <h3>More Details</h3>
+    <p>For the sake of transparency, the tweets are sent to <a href="https://twitter.com/computerirl">this twitter account.</a> Yes knowing this information means you could easily cheat, you cool hacker you, but don't be a donkus.</p>
     <script type="text/javascript">
       Parse.initialize("iK8eJngGrHpn8QWDtHummon3N3g3bwNXbGI71CNm", "rZaqy9KS29uaNTBozkBmAn3twRkBhQWv4HdcV8On");
     </script>
